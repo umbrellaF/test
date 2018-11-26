@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    margin:0 auto;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 374px){
+    html {
+        font-size: 20px !important;
+    }
+}
+@media only screen and (min-width: 410px){
+    html {
+        font-size: 22px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 26px !important;
+    }
+}
+@media only screen and (min-width: 767px){
+    html {
+        font-size: 40px !important;
+    }
+}
+@media only screen and (min-width: 1024px){
+    html {
+        font-size: 54px !important;
+    }
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.auto-img{
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
